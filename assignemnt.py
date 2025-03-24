@@ -54,7 +54,7 @@
 #tup = tuple(new_ls)  
 #print(tup)
 
-#asiignemnt 6
+#asiignemnt 6  method 1
 
 #tup1= ("faisalabad", "jaranwala", "multan")  
 #tup2= (1,2,3,4,5,6)
@@ -63,4 +63,45 @@
 #print(tup3)
 
 
+#asiignemnt 6  method 2
+
+#tup1= ("faisalabad", "jaranwala", "multan")  
+#tup2= (1,2,3,4,5,6)
+#tup3 = list(tup2) + list(tup1)  
+#tup3 = tup3[6:] + tup3[:6]  
+#tup3 = tuple(tup3)
+#print(tup3)
   
+#asiignemnt 6  method 3  
+
+#tup1= ("faisalabad", "jaranwala", "multan")  
+#tup2= (1,2,3,4,5,6)
+#tup3 =()
+
+#for x in tup2:
+   # tup3+=(x,)
+#for x in tup1:
+  #  tup3+=(x,)
+#tup3 = tup3[6:] + tup3[:6] 
+
+#print(tup3)   
+
+#     #asiignemnt 6  method 4
+
+#tup1= ("faisalabad", "jaranwala", "multan")  
+#tup2= (1,2,3,4,5,6)
+#tup3 = sum((tup2,tup1),())
+
+#tup3 = tup3[6:] + tup3[:6]
+
+#print(tup3)
+
+#     #asiignemnt 6  method 5
+
+#tup1= ("faisalabad", "jaranwala", "multan")  
+#tup2= (1,2,3,4,5,6)
+#tup3 = (*tup2,*tup1)
+
+#tup3 = tup3[6:] + tup3[:6]
+
+#print(tup3)
