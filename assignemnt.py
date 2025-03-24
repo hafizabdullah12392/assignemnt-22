@@ -1,3 +1,42 @@
+# assignment 1
+#a = "jaranwala"
+#b = "faislabad"
+#c = "lahore"
+
+#cap1 = a[0].upper() + a[1:]
+#cap2 = b[0].upper() + b[1:]
+#cap3 = c[0].upper() + c[1:]
+
+#print(cap1, cap2, cap3)
+
+#assignment 2
+
+#a = "Jaranwala Faislabad Lahore"
+
+#formatted = a[0:1].lower() + a[1:9].upper() + " " + a[10:11].lower() + a[11:20].upper() + " " + a[20:21].lower() + a[21:].upper()
+
+#print(formatted)
+
+#assignment 3
+
+#st = "Jaranwala Faislabad Lahore Karachi Multan"
+#st = (st.replace("J", "j")
+        # .replace("F", "f")
+        # .replace("L", "l")
+        # .replace("K", "k")
+        # .replace("M", "m"))
+
+#print(st)
+
+#assignment 4
+
+#Cities = ["Lahore", "Karachi", "Islamabad", "Faisalabad", "Peshawar", 
+  #        "Quetta", "Multan", "Rawalpindi", "Sialkot", "Hyderabad"]
+
+#formatted_cities = [x[0].upper() + x[1:-1].lower() + x[-1].upper() for x in Cities]
+
+#print(formatted_cities)
+
 
 
 
