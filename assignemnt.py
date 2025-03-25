@@ -105,3 +105,36 @@
 #tup3 = tup3[6:] + tup3[:6]
 
 #print(tup3)
+
+# assignment 8
+
+#st={"item 1","item 2"}
+#(st1,st2)=st
+#print(st1)
+
+#st1="item 3"
+#print(st1)
+
+# st1=list(("item3"))
+# print(type(st))
+
+# st=tuple(list(("item3")))
+# print(type(st))
+
+# assignment 9
+
+# ls=set((["Lahore","Multan","Kasur"]))
+# tup=set(((1,2,3)))
+# ls.update(tup)
+# print(ls)
+# print(tup)
+
+# set1={1, 2, 3, 'Lahore', 'Multan', 'Kasur'}
+# set2={1, 2, 3}
+# set3=set1.difference(set2)
+# print(set3)
+# set4=set1.union(set2)
+# print(set4)
+# set5=set1.intersection(set2)
+# print(set5)
+
