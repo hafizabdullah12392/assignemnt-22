@@ -106,7 +106,7 @@
 
 #print(tup3)
 
-# assignment 8
+# assignment 7
 
 #st={"item 1","item 2"}
 #(st1,st2)=st
@@ -121,7 +121,7 @@
 # st=tuple(list(("item3")))
 # print(type(st))
 
-# assignment 9
+# assignment 8
 
 # ls=set((["Lahore","Multan","Kasur"]))
 # tup=set(((1,2,3)))
@@ -138,3 +138,31 @@
 # set5=set1.intersection(set2)
 # print(set5)
 
+# assignment 9
+
+# tup=(1,2,3,4,5,6,7,8,9,10)
+# (tup1,tup2,tup3,tup4,tup5,tup6,tup7,tup8,*tup9)=tup
+# ls=tup9
+# print(ls)
+# ls=list(tup9)
+# print(type(ls))
+# ls.append(11)
+# print(ls)
+# ls=set(list(tup9))
+# print(type(ls))
+
+# assignment 10
+
+# set1={"Lahore","Karachi","Islamabad","California",}
+# set2={"New York", "New jersey", "Texas", "Ohio", "Oklahoma", "Oregon", "Pennsylvania",}
+# set3={1,2,3,4,5,6,7,8,9,10}
+# set4={11,12,13,14,}
+
+# set5=set1.union(set2,set3,set4)
+# print(set5)
+
+# set5=list([{'New York', 'Islamabad', 1, 2, 3, 'California', 4, 5, 6, 'Oklahoma', 7, 8, 9, 10, 11, 12, 13, 14, 'Pennsylvania', 'Ohio', 'Lahore', 'Karachi', 'Texas', 'Oregon', 'New jersey'}])
+# print(type(set5))
+
+# set6=tuple(list([{'New York', 'Islamabad', 1, 2, 3, 'California', 4, 5, 6, 'Oklahoma', 7, 8, 9, 10, 11, 12, 13, 14, 'Pennsylvania', 'Ohio', 'Lahore', 'Karachi', 'Texas', 'Oregon', 'New jersey'}]))
+# print(type(set6))
