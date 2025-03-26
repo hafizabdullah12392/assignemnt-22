@@ -166,3 +166,33 @@
 
 # set6=tuple(list([{'New York', 'Islamabad', 1, 2, 3, 'California', 4, 5, 6, 'Oklahoma', 7, 8, 9, 10, 11, 12, 13, 14, 'Pennsylvania', 'Ohio', 'Lahore', 'Karachi', 'Texas', 'Oregon', 'New jersey'}]))
 # print(type(set6))
+
+# assignment 11
+
+# dic= {"person":{"name":"Hafiz","age":"20"}}
+
+# dic["person"].pop("name")
+# print(dic)
+
+# dic["person"].update({"height":"5.7"})
+# print(dic)
+
+# dic["person"]["name"]="ashraf"
+# print(dic)
+
+# assignment 12
+
+# dic={}
+
+# dic.update({"name": "Hafiz", "age" : "20","Gender": "Male",})
+# dic.update({"address": "Karachi"})
+# print(dic)
+
+# name=input({"Enter name:"})
+# age=input({"Enter age:"})
+# address=input({"Enter address:"})
+
+# student={"name": name,"address":address,"age": age}
+
+# print(student)
+ 
