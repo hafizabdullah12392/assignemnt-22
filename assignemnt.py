@@ -196,3 +196,65 @@
 
 # print(student)
  
+# assignment 13
+
+# def func_city(ls):
+#     b = input('Enter city name ')
+#     for city in ls:
+#         if(b==city):
+#             print("city is clean")
+#             break
+#     else:
+#      print("city not found") 
+
+# ls=["Faisalabad","Lahore","Jaranwala","Multan","Karachi"]           
+
+# func_city(ls)
+
+# part 2
+
+# def func(c):
+#     alp= False
+#     ls=["Jaranwala","Lahore","Karachi"]
+
+#     for city in ls:
+#         if city==c:
+#             alp=True                             # by flag methods
+#     if(alp):    
+#             print("Your city is clean")
+#     else:
+#             print("Your city is not clean")
+
+# c= input("Please enter the city")
+# func(c)
+
+#Part 3
+
+# def func(c):
+#     ls=["Jaranwala","Lahore","Karachi"]
+
+#     if c in ls:
+#         print("Your city is clean")
+#     else:
+#         print("Your city is not clean")
+
+# c= input("Please enter the city: ")
+# func(c)       
+
+
+# def func():
+#     alp=False
+#     num= 50+70-20*2/5
+
+#     if num== 50-500:
+#         alp=True
+#         print("Your answer is true")
+#     if(alp):    
+#         print("Your answer is true")    
+#     else:
+#         print("Your answer is false")
+
+# func()        
+
+     
+    
